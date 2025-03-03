@@ -1377,6 +1377,10 @@ section,
 .chefs .member .pic {
   overflow: hidden;
   margin-bottom: 50px;
+    width: 200px; /* Ensures the image takes up the full width of its container */
+    height: 250px; /* Set a fixed height for the images */
+    object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
+  
 }
 
 .chefs .member .member-info {
