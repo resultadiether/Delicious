@@ -670,6 +670,11 @@ h6 {
   background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
   color: var(--contrast-color);
 }
+/*text-align*/
+.fst-italic {
+  text-align: justify;
+  
+}
 
 .scroll-top.active {
   visibility: visible;
